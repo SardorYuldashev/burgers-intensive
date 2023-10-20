@@ -56,7 +56,7 @@ body {
 }
 
 .main {
-  background-image: url("../images/main_bg.svg");
+  background-image: url("../images/main_bg.png");
   background-position: top center;
   overflow: hidden;
 }
@@ -109,6 +109,9 @@ body {
   margin-left: auto;
   font-size: 18px;
   user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-content {
@@ -153,7 +156,7 @@ body {
 }
 
 .why {
-  background-image: url("../images/whybg.svg");
+  background-image: url("../images/whybg.png");
   background-position: top center;
   background-size: initial;
   padding-bottom: 180px;
@@ -183,7 +186,7 @@ body {
 }
 
 .products {
-  background-image: url(../images/burgers_bg.svg);
+  background-image: url(../images/burgers_bg.png);
   background-position: top center;
   background-size: 1400px;
   padding-bottom: 180px;
@@ -252,7 +255,7 @@ body {
 }
 
 .order {
-  background-image: url(../images/order_bg.svg);
+  background-image: url(../images/order_bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 180px;
